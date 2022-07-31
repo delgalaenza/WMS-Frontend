@@ -4,7 +4,7 @@ import { OpenlayersComponent } from './openlayers/openlayers.component';
 import { UrbanAtlasComponent } from './urban-atlas/urban-atlas.component';
 
 const routes: Routes = [
-  {path: '', component: OpenlayersComponent},
+  {path: '', component: UrbanAtlasComponent},
   {path: 'openlayers', component: OpenlayersComponent},
   {path: 'urbanAtlas', component: UrbanAtlasComponent}
 

@@ -1,7 +1,25 @@
 <app-navbar></app-navbar>
 
+<div class="changeContainer">
+    <button class="changeButton" (click)="increaseOpacity()">+ opacity</button>
+    <button class="changeButton" (click) = "decreaseOpacity()">- opacity</button>
+</div>
+
+<div class="mainContainer">
+<div class ="legendContainer">
+    <h3 style="text-align: center;">LEGEND</h3>
+
+    <p style="padding-left:10px;">Layer: Land Use Raster</p>
+    <ul *ngFor="let i of legendItems;"> 
+        <li>  <img [src]="i.image" style="padding-right:10px;">{{i.description}} </li>
+    </ul>
+</div>
+
 <main>
     <div id="map" class="map-container"></div>
 </main>
+</div>
 
 <app-footer></app-footer>
+
+

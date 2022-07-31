@@ -1,4 +1,9 @@
+@import '../variables';
+
 footer {
-    background-color: var(--header-color);
+    background-color: $background-color-dark;
     padding: 1em;
+    bottom:0;
+    position:fixed;
+    width:100%;
 }

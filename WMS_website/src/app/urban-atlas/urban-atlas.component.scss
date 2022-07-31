@@ -1,16 +1,42 @@
-:host {
+
+.mainContainer{
     display: flex;
-    flex-direction: column;
-    height: 100vh;
+    flex-direction: raw;
+    height:84%;
+    overflow: hidden
 }
 main {
     display: flex;
     flex-grow: 1;
 }
-.left-bar {
-    width: 20em;
-    background-color: var(--sidebar-color);
-}
+
 .map-container {
     flex-grow: 1;
+}
+
+.legendContainer{
+    width:200px;
+    overflow-y: scroll; 
+    background-color: #E7F6F2;
+}
+
+
+@media screen and (max-width:600px) {
+    .legendContainer{
+        width:100px;
+    }
+}
+
+.changeContainer{
+    background-color: #E7F6F2;
+}
+    
+.changeButton{
+    background-color: #072227;
+    color:white;
+    cursor:pointer;
+}
+
+.changeButton:hover{
+    background-color: gray;
 }
