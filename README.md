@@ -16,3 +16,14 @@
 ##### The is also a section with an example of a WMS layer from the open source server Openlayers.
 
 ![2022_07_31_12t_Kleki](https://user-images.githubusercontent.com/72390465/182045735-bd91e0b5-33f6-4d4c-9edc-18ef6f8cd7a8.png)
+
+****************************
+## Tools required + version used
+ - Angular CLI: 13.3.5
+ - Node: 16.15.0
+ - Node Package Manager: npm 8.5.5
+ - OS: win32 x64
+
+### To run the project on localhost just clone the repository and type 
+ - "npm install" 
+ - "ng serve --open"
