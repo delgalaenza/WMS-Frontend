@@ -27,3 +27,4 @@
 ### To run the project on localhost just clone the repository and type 
  - "npm install" 
  - "ng serve --open"
+Now the user can find the home page at "http://loalhost:4200/" .
